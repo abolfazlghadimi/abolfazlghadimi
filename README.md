@@ -20,3 +20,12 @@ let flowers=[
     {name:'ROZ',color:'yellow'},{name:'LALE',color:'pink'},{name:'mikhak',color:'red'},{name:'orkideh',color:'purple'},{name:'maryam',color:'white'}
 ]
 console.log(flowers)
+
+let temperture=15;
+
+let tempertures = temperture>20 ? 'HOT' :'COLD'
+
+console.log(tempertures)
+
+
+

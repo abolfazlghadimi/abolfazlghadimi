@@ -26,6 +26,12 @@ let temperture=15;
 let tempertures = temperture>20 ? 'HOT' :'COLD'
 
 console.log(tempertures)
+function addnumber(num1,num2){
+    return num1+num2
+}
+console.log(addnumber(4+3))
+
+
 
 
 

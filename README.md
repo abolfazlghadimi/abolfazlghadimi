@@ -29,10 +29,22 @@ console.log(tempertures)
 function addnumber(num1,num2){
     return num1+num2
 }
-console.log(addnumber(4+3))
+console.log
+(addnumber(4+3))
 for (let i=10; i<=100; i+=10){
     console.log(i);
 }
+let  colors =['RED' , 'blue' , 'pink'];
+
+for (let color of colors) {
+    console.log(color);
+}
+
+
+
+
+
+
 
 
 

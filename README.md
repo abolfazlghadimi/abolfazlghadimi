@@ -47,7 +47,21 @@ x=5+ Number('5');
 x=5 *
 
 console.log(x,typeof x);
+for (let number = 2; number <= 20; number++) {
 
+    let Prime = true; 
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+       Prime=false;
+       break;
+    
+    }
+  
+    if(Prime){
+      console.log(number);
+    }
+    }
+}
 
 
 
